@@ -1,0 +1,14 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#0D323A",
+    "titleBar.activeBackground": "#124652",
+    "titleBar.activeForeground": "#F6FCFD"
+  },
+  "workbench.editor.labelFormat": "short",
+  "cSpell.words": [
+    "AHHA",
+    "mdsvex",
+    "Roboto",
+    "sveltejs"
+  ]
+}

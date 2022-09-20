@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+  font-family: "Sweater-Decorative";
+  src: url("/fonts/Sweater/Sweater-Decorative.woff2") format("woff2"),
+      url("/fonts/Sweater/Sweater-Decorative.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Sweater-Script";
+  src: url("/fonts/Sweater/Sweater-Script.woff2") format("woff2"),
+      url("/fonts/Sweater/Sweater-Script.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Sweater-SlabSerif";
+  src: url("/fonts/Sweater/Sweater-SlabSerif.woff2") format("woff2"),
+      url("/fonts/Sweater/Sweater-SlabSerif.woff") format("woff");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply m-0 p-0 bg-primary text-white font-mono;
+  }
+}
+
+@layer utilities {
+  .layout-grid {
+    @apply grid grid-cols-12 gap-x-20
+  }
+}
