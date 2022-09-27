@@ -26,6 +26,32 @@
   body {
     @apply m-0 p-0 bg-primary text-white font-mono;
   }
+
+  p:not(.faq p) {
+    @apply mb-9
+  }
+
+  p a {
+    @apply underline hover:no-underline font-bold;
+  }
+}
+
+@layer components {
+  .zigZagBorder {
+		@apply bg-borderZigZag bg-center min-h-[40px] w-full bg-repeat-x border-none;
+	}
+
+  .snowflakes {
+    @apply bg-snowflakes bg-center bg-repeat-x min-h-[158px] w-full border-none;
+  }
+
+  .section-heading {
+    @apply font-decorative uppercase text-5xl text-center leading-tight
+  }
+
+  .tertiary-heading {
+    @apply font-slabSerif uppercase text-base;
+  }
 }
 
 @layer utilities {
