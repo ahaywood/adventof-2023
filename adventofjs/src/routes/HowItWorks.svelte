@@ -1,10 +1,10 @@
-<div class="snowflakes pt-24 pb-20 grid grid-cols-12">
-	<div class="col-span-6 col-start-4">
-		<h2 class="section-heading mb-20">How It Works</h2>
+<div class="snowflakes pt-12 md:pt-24 pb-4 md:pb-20 grid grid-cols-12">
+	<div class="col-span-9 col-start-3 lg:col-span-6 lg:col-start-4">
+		<h2 class="section-heading mb-8 lg:mb-20">How It Works</h2>
 
 		<ol>
 			<li>
-				<h3>For 24 days, you will get an email</h3>
+				<h3 class="tertiary-heading">For 24 days, you will get an email</h3>
 				<p class="mb-4">Each challenge includes:</p>
 				<ul class="list-disc">
 					<li>
@@ -16,12 +16,12 @@
 			</li>
 
 			<li>
-				<h3>Complete the Challenge</h3>
+				<h3 class="tertiary-heading">Complete the Challenge</h3>
 				Complete the challenge on your own, or refer to the (paid) tutorial and final coded solution.
 			</li>
 
 			<li>
-				<h3>Share your success</h3>
+				<h3 class="tertiary-heading">Share your success</h3>
 				<p>
 					When you’re finished call you mom! Tweet about it! Stick your code on GitHub. Post a
 					picture on Instagram. Talk about it on Facebook. Use the hashtag #adventofcss.
@@ -34,9 +34,11 @@
 <div class="fat-border" />
 
 <style lang="postcss">
-	.snowflakes {
-		background: url('/images/snowflakes--left.png') no-repeat 50px 50px,
-			url('/images/snowflakes--right.png') no-repeat calc(100% - 50px) 50px;
+	@media (min-width: 1024px) {
+		.snowflakes {
+			background: url('/images/snowflakes--left.png') no-repeat 50px 50px,
+				url('/images/snowflakes--right.png') no-repeat calc(100% - 50px) 50px;
+		}
 	}
 
 	ol {
@@ -62,7 +64,7 @@
 	}
 
 	h3 {
-		@apply tertiary-heading mb-4;
+		@apply mb-4;
 	}
 
 	.fat-border {

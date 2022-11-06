@@ -1,13 +1,20 @@
 <script lang="ts">
 	export let label: string;
+	export let src: string;
 </script>
 
-<button>
-	{label}
-</button>
+<a href={src}>
+	<span>
+		{label}
+	</span>
+</a>
 
 <style lang="postcss">
-	button {
-		@apply bg-button bg-center uppercase font-slabSerif text-base min-h-[90px] min-w-[275px] bg-no-repeat;
+	a {
+		@apply bg-button cursor-pointer block bg-center uppercase font-slabSerif text-base h-[90px] w-[275px] bg-no-repeat mx-auto p-4;
+	}
+
+	a > span {
+		@apply w-full h-full flex items-center justify-center hover:bg-white hover:text-primary;
 	}
 </style>

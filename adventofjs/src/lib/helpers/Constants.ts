@@ -5,6 +5,8 @@ export const Constants = Object.freeze({
   JAMES_GITHUB_URL: 'https://github.com/jamesqquick',
   JAMES_YOUTUBE_URL: 'https://youtube.com/c/jamesqquick',
   JAMES_TWITCH_URL: 'https://twitch.com/jamesqquick',
+  JAMES_TIKTOK_URL: 'https://tiktok.com/jamesqquick',
+  JAMES_DISCORD_URL: 'https://learnbuildteach.com',
 
   // amy
   AMY_WEBSITE_URL: 'https://selfteach.me',
@@ -18,4 +20,8 @@ export const Constants = Object.freeze({
   // other
   AHHA: 'https://ahhacreative.com',
   PODIA: 'https://store.selfteach.me/login',
+  PROJECT_GITHUB: 'https://github.com/adventofjs',
+  FREE: '#',
+  SOLUTIONS: 'https://ahhacreative.gumroad.com/l/tlfkw',
+  BUNDLE: 'https://ahhacreative.gumroad.com/l/mcrzm'
 })

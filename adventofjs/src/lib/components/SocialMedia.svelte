@@ -8,10 +8,11 @@
 	}
 
 	export let socialMedia: SocialMedia[] = [];
+	export let className: string = '';
 </script>
 
 {#if socialMedia}
-	<ul>
+	<ul class={`flex gap-x-8 w-full text-white ${className}`}>
 		{#each socialMedia as { name, url, icon }}
 			<li>
 				<a href={url} target="_blank" rel="noopener noreferrer">

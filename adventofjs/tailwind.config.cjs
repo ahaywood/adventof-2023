@@ -6,9 +6,15 @@ module.exports = {
       'borderTop': "url('/images/border--top@2x.png')",
       'borderZigZag': "url('/images/border__zigzag.png')",
       'button': "url('/images/button.png')",
+      'diamond': "url('/images/diamond.png')",
       'fatBorder': "url('/images/fat-border.png')",
+      'horizontalDivider': "url('/images/horizontal-divider.png')",
+      'reindeerLeft': "url('/images/reindeer--black--left.png')",
+      'reindeerRight': "url('/images/reindeer--black--right.png')",
       'snowflakes': "url('/images/snowflakes.png')",
       'verticalDivider': "url('/images/vertical-divider.png')",
+      "xes": "url('/images/xes.png')",
+      'zigZag': "url('/images/zig-zag.png')",
     },
     colors: {
       white: '#ffffff',
@@ -19,6 +25,7 @@ module.exports = {
       backgroundPosition: {
         centerTop: 'center top',
         center: 'center center',
+        leftBtm: 'left bottom',
         rightTop: 'right top',
       }
     },

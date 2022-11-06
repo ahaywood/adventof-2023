@@ -10,7 +10,7 @@
 	import JoinTheChallenge from './JoinTheChallenge.svelte';
 
 	export let data;
-	const { faqs } = data;
+	const { faqs, friends } = data;
 </script>
 
 <Hero />
@@ -18,7 +18,7 @@
 <HowItWorks />
 <GetGoodWho />
 <WhoAreYou />
-<Friends />
+<Friends {friends} />
 <Faqs {faqs} />
 <JoinTheChallenge />
 <Pricing />
