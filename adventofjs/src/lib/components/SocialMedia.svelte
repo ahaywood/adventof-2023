@@ -12,7 +12,7 @@
 </script>
 
 {#if socialMedia}
-	<ul class={`flex gap-x-8 w-full text-white ${className}`}>
+	<ul class={`flex gap-x-8 w-full text-white justify-center ${className}`}>
 		{#each socialMedia as { name, url, icon }}
 			<li>
 				<a href={url} target="_blank" rel="noopener noreferrer">

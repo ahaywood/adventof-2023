@@ -23,8 +23,8 @@
 			<li>
 				<h3 class="tertiary-heading">Share your success</h3>
 				<p>
-					When you’re finished call you mom! Tweet about it! Stick your code on GitHub. Post a
-					picture on Instagram. Talk about it on Facebook. Use the hashtag #adventofcss.
+					When you’re finished call your mom! Tweet about it! Stick your code on GitHub. Post a
+					picture on Instagram. Talk about it on Facebook. Use the hashtag #adventofjs.
 				</p>
 			</li>
 		</ol>

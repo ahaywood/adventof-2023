@@ -3,9 +3,7 @@
 	// export let friends: Friend[];
 </script>
 
-<div class="text-center font-script text-4xl mb-2">
-	This year, we’ve asked our friends to help us.
-</div>
+<div class="text-center font-script text-4xl mb-2">This year, I asked my friends to help.</div>
 <p class="text-center">Each day you’ll see someone new</p>
 
 <!-- friends -->
