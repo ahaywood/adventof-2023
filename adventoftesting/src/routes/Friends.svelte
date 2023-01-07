@@ -4,9 +4,7 @@
 </script>
 
 <div class="text-center font-script text-4xl mb-2">This year, I asked my friends to help.</div>
-<p class="text-center">
-	Life is like a box of chocolates. You never know what you're going to get.
-</p>
+<p class="text-center">Each day you’ll see someone new</p>
 
 <!-- friends -->
 <!-- <div class="mx-2 grid grid-cols-4 gap-x-4 gap-y-4 pb-10">
