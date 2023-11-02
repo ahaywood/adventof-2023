@@ -37,7 +37,7 @@
 	<div class="mb-8">
 		<ul class="list-none flex gap-3 lg:gap-6 justify-center flex-col md:flex-row">
 			<li class="dot">•</li>
-			<li><a href="/contact">Contact / Support</a></li>
+			<li><a href="mailto:support@adventoffrontend.com">Contact / Support</a></li>
 			<li class="dot">•</li>
 			<li><a href="/terms">Terms and Conditions</a></li>
 			<li class="dot">•</li>
