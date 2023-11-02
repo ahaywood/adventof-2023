@@ -33,7 +33,7 @@
 
 <div class="grid grid-cols-12">
 	<div
-		class="px-4 sm:px-10 md:px-24 flex flex-col lg:flex-row gap-x-20 items-center pb-24 mb-16 lg:mb-0 col-span-6 col-start-4"
+		class="px-4 sm:px-10 md:px-24 flex flex-col lg:flex-row gap-x-20 items-center pb-24 mb-16 lg:mb-0 col-span-8 col-start-3"
 	>
 		<!-- Amy Dutton -->
 		<div class="flex-1">
@@ -49,16 +49,16 @@
 				</div>
 				<div class="box my-4">
 					<div class="name">Amy Dutton</div>
-					<div class="title">Director of Design</div>
+					<div class="title">Lead Maintainer on the RedwoodJS Core Team</div>
 				</div>
 			</div>
 			<div class="md:pr-5">
 				<p>
-					My name is Amy Dutton. I’m the Director of Design at <a
-						href="http://codingzeal.com"
-						target="_blank">ZEAL</a
-					>. I have 20+ years of experience in web development and design. I love teaching and
-					seeing something finally click. I live in Nashville, TN with my husband, 3 kids, and 2
+					My name is Amy Dutton. I'm a lead maintainer on the <a
+						href="https://redwoodjs.com"
+						target="_blank">RedwoodJS</a
+					> core team. I have 22+ years of experience in web development and design. I love teaching
+					and seeing something finally click. I live in Nashville, TN with my husband, 3 kids, and 2
 					dogs.
 				</p>
 				<SocialMedia
