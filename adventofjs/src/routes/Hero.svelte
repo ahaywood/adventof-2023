@@ -27,7 +27,7 @@
 		<!-- TITLE -->
 		<div class="title">
 			<h2 class="font-script text-2xl lg:text-4xl mb-10">
-				Starts <span class="whitespace-nowrap">December 1, 2022</span>
+				Starts <span class="whitespace-nowrap">December 1, 2023</span>
 			</h2>
 			<h1 class="font-decorative mb-4 lg:mb-2">
 				<div class="text-4xl lg:text-[5rem] leading-none">Advent</div>
