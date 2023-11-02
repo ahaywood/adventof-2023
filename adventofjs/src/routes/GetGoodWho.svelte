@@ -8,7 +8,7 @@
 		<p>
 			The best way to learn is through real world projects and components. Build things! Practice.
 			Challenge yourself. Not sure what to build? With Advent of JavaScript, you'll get 24
-			challenges via email, every day, December 1 - 24, 2021.
+			challenges via email, every day, December 1 - 24, 2023.
 		</p>
 		<div class="pt-6 hidden lg:block">
 			<img src="/images/ginger-bread-man.png" alt="Ginger Bread Men" />
