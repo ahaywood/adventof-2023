@@ -14,7 +14,7 @@
 		<h3>24 Challenges</h3>
 		<p>
 			Each challenge includes all the assets you need to get started, including a Figma file, a
-			style guide, a brief, ways to push yourself, and steps to help you get started.
+			style guide, a brief, and steps to help you get started.
 		</p>
 		<Button label="Sign me up!" src={Constants.FREE} />
 	</div>

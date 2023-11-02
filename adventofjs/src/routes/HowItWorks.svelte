@@ -8,7 +8,7 @@
 				<p class="mb-4">Each challenge includes:</p>
 				<ul class="list-disc">
 					<li>
-						All the assets you need to get started, including a Figma design file Iif you don’t have
+						All the assets you need to get started, including a Figma design file If you don’t have
 						<a href="https://figma.com" target="_blank">Figma</a>, don’t worry, it’s FREE)
 					</li>
 					<li>A brief on how to get started, with ideas to test yourself, and FAQs.</li>
