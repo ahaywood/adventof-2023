@@ -70,11 +70,12 @@
 <style>
 	/* wraps the entire hero title section */
 	.hero-title {
-		@apply grid w-full lg:px-12 gap-y-10 xl:gap-y-0 mb-20 md:mb-12 lg:mb-20 xl:mb-0;
 		grid-template-columns: 2;
 		grid-template-areas:
 			'title title'
 			'sponsored sponsored';
+		max-width: 870px;
+		@apply grid w-full lg:px-12 gap-y-10 xl:gap-y-0 mb-20 md:mb-12 lg:mb-20 xl:mb-0 mx-auto;
 	}
 
 	@media (min-width: 640px) {
