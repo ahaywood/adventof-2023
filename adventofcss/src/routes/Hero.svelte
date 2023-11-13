@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Constants } from '$lib/helpers/Constants';
+	import SponsoredBy from './SponsoredBy.svelte';
 	import Trees from './Trees.svelte';
 </script>
 
@@ -14,6 +15,13 @@
 		target="_blank">Login</a
 	>
 
+	<a
+		class="bg-black text-white uppercase font-slabSerif text-sm py-2 px-6 absolute right-0 top-0 hover:bg-white hover:text-black"
+		href={Constants.TWENTY_ONE}
+		target="_blank"
+		rel="noreferrer">2021 + 2022</a
+	>
+
 	<div
 		class="hidden sm:flex absolute w-full justify-between max-w-[1437px] left-1/2 -translate-x-1/2 top-[89px]"
 	>
@@ -25,7 +33,7 @@
 
 	<div class="hero-title">
 		<!-- TITLE -->
-		<div class="title">
+		<div class="title mb-8">
 			<h2 class="font-script text-2xl lg:text-4xl mb-10">
 				Starts <span class="whitespace-nowrap">December 1, 2023</span>
 			</h2>
@@ -38,6 +46,9 @@
 			</h1>
 			<h2 class="font-script text-2xl lg:text-4xl">24 Challenges for the Season</h2>
 		</div>
+		<div class="sponsored font-slabSerif text-xs">
+			<SponsoredBy />
+		</div>
 	</div>
 
 	<div
@@ -48,38 +59,35 @@
 	</div>
 </header>
 
-<style lang="postcss">
+<style>
 	/* wraps the entire hero title section */
 	.hero-title {
 		@apply grid w-full lg:px-12 gap-y-10 xl:gap-y-0 mb-20 md:mb-12 lg:mb-20 xl:mb-0;
 		grid-template-columns: 2;
 		grid-template-areas:
 			'title title'
-			'sponsored sponsored'
-			'poweredBy poweredBy';
+			'sponsored sponsored';
 	}
 
 	@media (min-width: 640px) {
 		.hero-title {
 			grid-template-areas:
 				'title title'
-				'sponsored poweredBy';
+				'sponsored sponsored';
 		}
 	}
 
 	@media (min-width: 1200px) {
 		.hero-title {
 			grid-template-columns: 3;
-			grid-template-areas: 'sponsored title poweredBy';
+			grid-template-areas:
+				'title'
+				'sponsored';
 		}
 	}
 
 	.sponsored {
 		grid-area: sponsored;
-	}
-
-	.poweredBy {
-		grid-area: poweredBy;
 	}
 
 	.title {
@@ -93,14 +101,6 @@
 			background-size: 77px 123px;
 		}
 	}
-
-	/* @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-width: 768px) {
-		.title {
-			background: url('/images/reindeer--left@2x.png') left top no-repeat,
-				url('/images/reindeer--right@2x.png') right top no-repeat;
-			background-size: 77px 123px;
-		}
-	} */
 
 	.border-top {
 		@apply bg-borderTop bg-centerTop;

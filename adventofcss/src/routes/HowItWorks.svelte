@@ -33,7 +33,7 @@
 
 <div class="fat-border" />
 
-<style lang="postcss">
+<style>
 	@media (min-width: 1024px) {
 		.snowflakes {
 			background: url('/images/snowflakes--left.png') no-repeat 50px 50px,

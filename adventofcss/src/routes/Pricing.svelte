@@ -20,9 +20,15 @@
 	</div>
 
 	<div class="tier">
-		<div class="amount">
-			<div class="dollar">$</div>
-			<div class="number">24</div>
+		<div class="flex gap-3 justify-center">
+			<div class="amount crossout">
+				<div class="dollar">$</div>
+				<div class="number">24</div>
+			</div>
+			<div class="amount">
+				<div class="dollar">$</div>
+				<div class="number">0</div>
+			</div>
 		</div>
 		<h3>24 Challenges & Solutions</h3>
 		<p>
@@ -34,9 +40,15 @@
 	</div>
 
 	<div class="tier">
-		<div class="amount">
-			<div class="dollar">$</div>
-			<div class="number">39</div>
+		<div class="flex gap-3 justify-center">
+			<div class="amount crossout">
+				<div class="dollar">$</div>
+				<div class="number">39</div>
+			</div>
+			<div class="amount">
+				<div class="dollar">$</div>
+				<div class="number">0</div>
+			</div>
 		</div>
 		<h3>Bundled with JS Challenges</h3>
 		<p>
@@ -51,7 +63,7 @@
 <div class="snowflake-border" />
 <div class="zigZagBorder" />
 
-<style lang="postcss">
+<style>
 	.tier {
 		@apply bg-horizontalDivider bg-leftBtm bg-repeat-x lg:bg-verticalDivider lg:bg-rightTop lg:bg-repeat-y col-span-4 px-10 lg:px-8 xl:px-12 flex flex-col justify-end h-full pb-16 mb-16 lg:pb-8 lg:mb-0 pt-12;
 	}

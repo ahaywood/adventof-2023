@@ -5,4 +5,4 @@ order: 5
 
 Umm…No.
 
-Do not take what we’ve created and resell it. The challenges are free and the money that we’re charging for the solutions is one small way we’re trying to recoup the sweat equity we’ve put into this project.
+Do not take what we’ve created and resell it. This is original content that we've spent a lot of time creating. We’re not charging you for it, so please don’t charge others for it.

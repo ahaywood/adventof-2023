@@ -4,7 +4,7 @@
 </script>
 
 <div class="snowflakes">
-	<h2 class="section-heading mb-8">Fequently Asked Questions</h2>
+	<h2 class="section-heading mb-8">Frequently Asked Questions</h2>
 	<div class="grid grid-cols-12 mb-20">
 		<div class="col-span-12 lg:col-span-8 lg:col-start-3 px-5 lg:px-0">
 			{#each faqs as faq}
@@ -14,7 +14,7 @@
 	</div>
 </div>
 
-<style lang="postcss">
+<style>
 	@media (min-width: 1024px) {
 		.snowflakes {
 			@apply pt-10;

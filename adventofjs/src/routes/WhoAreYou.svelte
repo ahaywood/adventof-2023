@@ -26,8 +26,7 @@
 		</div>
 	</div>
 	<p class="text-center px-4 sm:px-0">
-		For the <em>second</em> year in a row, we’ve put together a set of 24 challenges for the holiday
-		season.
+		For the <em>second</em> time, I’ve put together a set of 24 challenges for the holiday season.
 	</p>
 </div>
 
@@ -49,12 +48,12 @@
 				</div>
 				<div class="box my-4">
 					<div class="name">Amy Dutton</div>
-					<div class="title">Lead Maintainer on the RedwoodJS Core Team</div>
+					<div class="title">Principal Maintainer, RedwoodJS Core Team</div>
 				</div>
 			</div>
 			<div class="md:pr-5">
 				<p>
-					My name is Amy Dutton. I'm a lead maintainer on the <a
+					My name is Amy Dutton. I'm a principal maintainer on the <a
 						href="https://redwoodjs.com"
 						target="_blank">RedwoodJS</a
 					> core team. I have 22+ years of experience in web development and design. I love teaching

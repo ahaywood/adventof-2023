@@ -49,7 +49,7 @@
 				</div>
 				<div class="box my-4">
 					<div class="name">Amy Dutton</div>
-					<div class="title">Lead Maintainer on the RedwoodJS Core Team</div>
+					<div class="title">Principal Maintainer, RedwoodJS Core Team</div>
 				</div>
 			</div>
 			<div class="md:pr-5">

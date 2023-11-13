@@ -23,5 +23,8 @@ export const Constants = Object.freeze({
   PROJECT_GITHUB: 'https://github.com/adventofjs',
   FREE: 'https://ahhacreative.gumroad.com/l/uprmm',
   SOLUTIONS: 'https://ahhacreative.gumroad.com/l/tlfkw',
-  BUNDLE: 'https://ahhacreative.gumroad.com/l/mcrzm'
+  BUNDLE: 'https://ahhacreative.gumroad.com/l/mcrzm',
+
+  TWENTY_ONE: 'https://2021.adventofcss.com',
+  REDWOOD: 'https://redwoodjs.com'
 })

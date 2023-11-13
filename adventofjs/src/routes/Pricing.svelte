@@ -20,9 +20,16 @@
 	</div>
 
 	<div class="tier">
-		<div class="amount">
-			<div class="dollar">$</div>
-			<div class="number">24</div>
+		<div class="flex gap-3 justify-center">
+			<div class="amount crossout">
+				<div class="dollar">$</div>
+				<div class="number">24</div>
+				<img src="/images/crossout.svg" alt="cross out price" class="absolute inset-0" />
+			</div>
+			<div class="amount">
+				<div class="dollar">$</div>
+				<div class="number">0</div>
+			</div>
 		</div>
 		<h3>24 Challenges & Solutions</h3>
 		<p>
@@ -34,9 +41,16 @@
 	</div>
 
 	<div class="tier">
-		<div class="amount">
-			<div class="dollar">$</div>
-			<div class="number">39</div>
+		<div class="flex gap-3 justify-center">
+			<div class="amount crossout">
+				<div class="dollar">$</div>
+				<div class="number">39</div>
+				<img src="/images/crossout.svg" alt="cross out price" class="absolute inset-0" />
+			</div>
+			<div class="amount">
+				<div class="dollar">$</div>
+				<div class="number">0</div>
+			</div>
 		</div>
 		<h3>Bundled with CSS Challenges</h3>
 		<p>
@@ -62,6 +76,12 @@
 
 	.amount {
 		@apply text-center flex justify-center mb-6;
+	}
+
+	.crossout {
+		min-width: 227px;
+		min-height: 47px;
+		@apply relative;
 	}
 
 	.dollar {

@@ -1,10 +1,11 @@
 {
   "workbench.colorCustomizations": {
-    "activityBar.background": "#0F341F",
-    "titleBar.activeBackground": "#15492C",
+    "activityBar.background": "#570108",
+    "titleBar.activeBackground": "#91010f",
     "titleBar.activeForeground": "#F3FCF7"
   },
   "cSpell.words": [
+    "adventofjs",
     "AHHA",
     "ania",
     "kubow",

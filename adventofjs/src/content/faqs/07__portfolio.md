@@ -3,7 +3,7 @@ question: Can I put the code on GitHub? Can I include the challenges in my portf
 order: 7
 ---
 
-Feel free to put your code on GitHub. But, if you’ve paid for the solutions, do not put our code on GitHub.
+Feel free to put _your_ code on GitHub.
 
 You can include these challenges within your portfolio, but be honest about your contributions.
 

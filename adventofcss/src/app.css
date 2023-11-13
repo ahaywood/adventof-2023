@@ -31,9 +31,9 @@
     @apply mb-9
   }
 
-  .faq p:last-of-type {
+  /* .faq p:last-of-type {
     @apply mb-0
-  }
+  } */
 
   p a {
     @apply underline hover:no-underline font-bold;
@@ -59,6 +59,28 @@
 
   .tertiary-heading {
     @apply font-slabSerif uppercase text-base;
+  }
+
+  .faq ul {
+    @apply list-disc list-inside ml-10;
+  }
+
+  .faq ul li {
+    @apply pb-5;
+  }
+
+  .faq p {
+    @apply mb-0 pb-5;
+  }
+
+  .faq p:last-of-type,
+  .faq p:last-child,
+  .faq ul li:last-child:not(has(+ p)) {
+    @apply mb-0
+  }
+
+  .faq a {
+    @apply underline hover:no-underline font-bold;
   }
 
   .box {

@@ -28,11 +28,32 @@
   }
 
   p {
-    @apply mb-9
+    @apply pb-9
   }
 
-  .faq p:last-of-type {
-    @apply mb-0
+  .faq ul {
+    @apply pl-4 pb-9
+  }
+
+  .faq ul li {
+    @apply mb-3 relative
+  }
+
+  .faq ul li:before {
+    content: "*";
+    @apply absolute -left-4 top-0;
+  }
+
+  .faq ul li a {
+    @apply underline hover:no-underline font-bold;
+  }
+
+  .faq p:last-child {
+    @apply pb-0
+  }
+
+  .faq p:has(+ p) {
+    @apply pb-9
   }
 
   p a {
@@ -68,6 +89,61 @@
 			url('/images/dashed--vertical.png') left top repeat-y,
 			url('/images/dashed--vertical.png') right top repeat-y;
 	}
+
+  .trees-hearts {
+    background: url('/images/trees-hearts@2x.png') center top repeat-x;
+    background-size: auto 93px;
+    @apply h-[93px];
+  }
+
+  .double-diamonds {
+    background: url('/images/double-diamond@2x.png') center top repeat-x;
+    background-size: auto 48px;
+    @apply h-[48px] mt-1;
+  }
+
+  /* form fields */
+  .form label {
+		@apply block uppercase font-slabSerif mb-2;
+	}
+
+	.form input[type='text'],
+	.form input[type='email'],
+	.form textarea {
+		background: url('/images/dash--horizontal@2x.png') center bottom repeat-x,
+			url('/images/dash--horizontal@2x.png') center top repeat-x,
+			url('/images/dash--vertical@2x.png') left top repeat-y,
+			url('/images/dash--vertical@2x.png') right top repeat-y;
+		@apply font-mono bg-transparent focus:outline-none h-[70px] w-full mb-8 px-6;
+	}
+
+	.form textarea {
+		@apply h-[250px] py-6;
+	}
+
+  /* sign up form */
+  .signup .kw-alert,
+  .bundle .kw-alert {
+    @apply col-span-2;
+  }
+
+  .signup .kw-field-error-message,
+  .bundle .kw-field-error-message {
+    @apply text-[#E3AAC3] italic
+  }
+
+  /* legal */
+  .legal-content h1 {
+		@apply font-decorative uppercase text-5xl mb-5 text-center leading-[1.2];
+	}
+
+  .legal-content h2 {
+    @apply font-slabSerif uppercase text-xl mb-2 leading-[1.2];
+  }
+
+  .legal-content p {
+    @apply leading-7
+  }
 }
 
 @layer utilities {

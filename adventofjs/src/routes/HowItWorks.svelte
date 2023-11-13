@@ -5,19 +5,35 @@
 		<ol>
 			<li>
 				<h3 class="tertiary-heading">For 24 days, you will get an email</h3>
+				<p>
+					This year, we're working on a single project over 24 days. By the end, you'll have a
+					full-stack application.
+				</p>
 				<p class="mb-4">Each challenge includes:</p>
 				<ul class="list-disc">
 					<li>
-						All the assets you need to get started, including a Figma design file If you don’t have
-						<a href="https://figma.com" target="_blank">Figma</a>, don’t worry, it’s FREE)
+						All the HTML and CSS you need to get started, allowing you to focus on the JavaScript.
 					</li>
-					<li>A brief on how to get started, with ideas to test yourself, and FAQs.</li>
+					<li>
+						A brief describing the feature and it's requirements, ways to push yourself, and steps
+						to help you get started.
+					</li>
 				</ul>
 			</li>
 
 			<li>
 				<h3 class="tertiary-heading">Complete the Challenge</h3>
-				Complete the challenge on your own, or refer to the (paid) tutorial and final coded solution.
+				<p>
+					Complete the challenge on your own, or refer to the tutorial and final coded solution.
+				</p>
+				<p>
+					You can complete the challenges using any framework/platform you'd like, but the provided
+					solutions will be built on top of <a
+						href="https://redwoodjs.com"
+						target="_blank"
+						rel="noreferrer">RedwoodJS</a
+					>.
+				</p>
 			</li>
 
 			<li>

@@ -21,10 +21,12 @@
 		</div>
 		<h2 class="section-heading mb-8">Who is<br />this for?</h2>
 		<p>
-			These challenges are perfect for beginner to intermediate developers (or designers) who want
-			to become more comfortable with their CSS styling skills.
+			These challenges are perfect for beginner and intermediate developers who want to become more
+			comfortable with their JavaScript skills.
 		</p>
-		<p>Before accepting this challenge, you really should know basic HTML and CSS.</p>
+		<p>
+			<strong>Before accepting this challenge, you really should know basic JavaScript.</strong>
+		</p>
 		<p>
 			You learn best through implementation. Once you’ve applied your knowledge to a specific
 			project, learning concepts are solidified.

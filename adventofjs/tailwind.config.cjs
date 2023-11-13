@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     backgroundImage: {
       'borderTop': "url('/images/border--top@2x.png')",
+      'borderBtm': "url('/images/border--bottom@2x.png')",
       'borderZigZag': "url('/images/border__zigzag.png')",
       'button': "url('/images/button.png')",
       'diamond': "url('/images/diamond.png')",
@@ -19,7 +20,8 @@ module.exports = {
     colors: {
       white: '#ffffff',
       black: '#000000',
-      primary: '#92000e'
+      primary: '#92000e',
+      transparent: 'transparent',
     },
     extend: {
       backgroundPosition: {
@@ -37,4 +39,5 @@ module.exports = {
     }
   },
   plugins: [],
+  safeList: ['faq', 'kw-field-error-message']
 }

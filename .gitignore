@@ -4,6 +4,7 @@ node_modules
 /.svelte-kit
 /package
 .env
+.yarn
 
 # advent of css
 adventofcss/.DS_Store
@@ -12,6 +13,7 @@ adventofcss/build
 adventofcss/.svelte-kit
 adventofcss/package
 adventofcss/.env
+adventofcss/.yarn
 
 # advent of js
 adventofjs/.DS_Store
@@ -28,3 +30,4 @@ adventoffrontend/build
 adventoffrontend/.svelte-kit
 adventoffrontend/package
 adventoffrontend/.env
+adventoffrontend/.yarn

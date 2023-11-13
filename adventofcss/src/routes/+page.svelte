@@ -8,17 +8,18 @@
 	import WhoAreYou from './WhoAreYou.svelte';
 	import Faqs from './Faqs.svelte';
 	import JoinTheChallenge from './JoinTheChallenge.svelte';
+	import SpecialThanks from './SpecialThanks.svelte';
 
 	export let data;
-	const { faqs, friends } = data;
+	const { faqs } = data;
 </script>
 
 <Hero />
 <Pricing />
+<SpecialThanks />
 <HowItWorks />
 <GetGoodWho />
 <WhoAreYou />
-<Friends {friends} />
 <Faqs {faqs} />
 <JoinTheChallenge />
 <Pricing />
