@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { Constants } from '$lib/helpers/Constants';
-	import SponsoredBy from './SponsoredBy.svelte';
-	import Trees from './Trees.svelte';
+	import Trees from '../../routes/Trees.svelte';
 </script>
 
 <svelte:head>
@@ -12,7 +11,8 @@
 	<a
 		class="bg-black text-white uppercase font-slabSerif text-sm py-2 px-6 absolute left-0 top-0 hover:bg-white hover:text-black"
 		href={Constants.PODIA}
-		target="_blank">Login</a
+		target="_blank"
+		rel="noreferrer">Login</a
 	>
 
 	<div class="absolute right-0 top-0 flex items-center gap-x-4">
@@ -41,21 +41,16 @@
 
 	<div class="hero-title">
 		<!-- TITLE -->
-		<div class="title mb-8">
-			<h2 class="font-script text-2xl lg:text-4xl mb-10">
-				Starts <span class="whitespace-nowrap">December 1, 2023</span>
-			</h2>
-			<h1 class="font-decorative mb-4 lg:mb-2">
-				<div class="text-4xl lg:text-[5rem] leading-none">Advent</div>
-				<div class="font-slabSerif uppercase text-xl lg:text-3xl leading-none mb-4 lg:mb-10">
+		<div class="title">
+			<h1 class="font-decorative mt-3">
+				<div class="text-4xl lg:text-[66px] leading-none">Advent</div>
+				<div
+					class="font-slabSerif uppercase text-xl lg:text-[22px] relative top-1 leading-none mb-4 lg:mb-10"
+				>
 					of
 				</div>
-				<div class="text-4xl lg:text-[5rem] leading-none">CSS</div>
+				<div class="text-4xl lg:text-[66px] leading-none">CSS</div>
 			</h1>
-			<h2 class="font-script text-2xl lg:text-4xl">24 Challenges for the Season</h2>
-		</div>
-		<div class="sponsored font-slabSerif text-xs">
-			<SponsoredBy />
 		</div>
 	</div>
 
@@ -67,14 +62,14 @@
 	</div>
 </header>
 
-<style>
+<style lang="postcss">
 	/* wraps the entire hero title section */
 	.hero-title {
-		@apply grid w-full lg:px-12 gap-y-10 xl:gap-y-0 mb-20 md:mb-12 lg:mb-20 xl:mb-0;
-		grid-template-columns: 2;
 		grid-template-areas:
 			'title title'
 			'sponsored sponsored';
+		max-width: 870px;
+		@apply grid w-full lg:px-12 gap-y-10 xl:gap-y-0 -mb-8 xl:mb-0 col-span-2 mx-auto;
 	}
 
 	@media (min-width: 640px) {
@@ -87,15 +82,11 @@
 
 	@media (min-width: 1200px) {
 		.hero-title {
-			grid-template-columns: 3;
 			grid-template-areas:
 				'title'
 				'sponsored';
+			@apply col-span-3;
 		}
-	}
-
-	.sponsored {
-		grid-area: sponsored;
 	}
 
 	.title {
@@ -111,7 +102,9 @@
 	}
 
 	.border-top {
-		@apply bg-borderTop bg-centerTop;
-		background-size: auto 97px;
+		@apply bg-borderTop bg-centerTop pb-[38px];
+		background: url('/images/border--top@2x.png') center top repeat-x,
+			url('/images/hero--bottom@2x.png') center bottom repeat-x;
+		background-size: auto 97px, auto 38px;
 	}
 </style>

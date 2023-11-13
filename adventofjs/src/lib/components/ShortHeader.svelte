@@ -15,12 +15,20 @@
 		rel="noreferrer">Login</a
 	>
 
-	<a
-		class="bg-black text-white uppercase font-slabSerif text-sm py-2 px-6 absolute right-0 top-0 hover:bg-white hover:text-black"
-		href={Constants.TWENTY_ONE}
-		target="_blank"
-		rel="noreferrer">2021 + 2022</a
-	>
+	<div class="absolute right-0 top-0 flex items-center gap-x-4">
+		<a
+			class="bg-black text-white uppercase font-slabSerif text-sm py-2 px-6 hover:bg-white hover:text-black"
+			href={Constants.TWENTY_ONE}
+			target="_blank"
+			rel="noreferrer">2021 + 2022</a
+		>
+
+		<a
+			class="bg-black text-white uppercase font-slabSerif text-sm py-2 px-6 hover:bg-white hover:text-black"
+			href={Constants.TWENTY_THREE}
+			rel="noreferrer">2023</a
+		>
+	</div>
 
 	<div
 		class="hidden sm:flex absolute w-full justify-between max-w-[1437px] left-1/2 -translate-x-1/2 top-[89px]"

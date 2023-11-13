@@ -21,10 +21,11 @@ export const Constants = Object.freeze({
   AHHA: 'https://ahhacreative.com',
   PODIA: 'https://store.selfteach.me/login',
   PROJECT_GITHUB: 'https://github.com/adventofjs',
-  FREE: 'https://ahhacreative.gumroad.com/l/uprmm',
-  SOLUTIONS: 'https://ahhacreative.gumroad.com/l/tlfkw',
-  BUNDLE: 'https://ahhacreative.gumroad.com/l/mcrzm',
+  FREE: '/signup',
+  SOLUTIONS: '/signup',
+  BUNDLE: '/bundle',
 
   TWENTY_ONE: 'https://2021.adventofcss.com',
+  TWENTY_THREE: 'https://adventofcss.com',
   REDWOOD: 'https://redwoodjs.com'
 })

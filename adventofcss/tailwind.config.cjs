@@ -19,7 +19,8 @@ module.exports = {
     colors: {
       white: '#ffffff',
       black: '#000000',
-      primary: '#2C6031'
+      primary: '#2C6031',
+      transparent: 'transparent'
     },
     extend: {
       backgroundPosition: {

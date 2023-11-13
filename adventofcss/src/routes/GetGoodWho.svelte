@@ -4,7 +4,7 @@
 
 <div class="grid grid-cols-2 lg:grid-cols-12 mb-10">
 	<div class="col-span-12 lg:col-span-5 lg:col-start-2 px-10 lg:px-0 lg:pr-24 pt-20">
-		<h2 class="section-heading mb-8">Get Good at JS</h2>
+		<h2 class="section-heading mb-8">Get Good at CSS</h2>
 		<p>
 			The best way to learn is through real world projects and components. Build things! Practice.
 			Challenge yourself. Not sure what to build? With Advent of CSS, you'll get 24 challenges via
@@ -21,8 +21,8 @@
 		</div>
 		<h2 class="section-heading mb-8">Who is<br />this for?</h2>
 		<p>
-			These challenges are perfect for beginner to intermediate developers (or designers) who want
-			to become more comfortable with their CSS styling skills.
+			These challenges are perfect for beginner to intermediate developers who want to become more
+			comfortable with their CSS styling skills.
 		</p>
 		<p>Before accepting this challenge, you really should know basic HTML and CSS.</p>
 		<p>

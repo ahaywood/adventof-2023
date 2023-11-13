@@ -24,6 +24,7 @@
 			<div class="amount crossout">
 				<div class="dollar">$</div>
 				<div class="number">24</div>
+				<img src="/images/crossout.svg" alt="cross out price" class="absolute inset-0" />
 			</div>
 			<div class="amount">
 				<div class="dollar">$</div>
@@ -44,6 +45,7 @@
 			<div class="amount crossout">
 				<div class="dollar">$</div>
 				<div class="number">39</div>
+				<img src="/images/crossout.svg" alt="cross out price" class="absolute inset-0" />
 			</div>
 			<div class="amount">
 				<div class="dollar">$</div>
@@ -74,6 +76,12 @@
 
 	.amount {
 		@apply text-center flex justify-center mb-6;
+	}
+
+	.crossout {
+		min-width: 227px;
+		min-height: 47px;
+		@apply relative;
 	}
 
 	.dollar {

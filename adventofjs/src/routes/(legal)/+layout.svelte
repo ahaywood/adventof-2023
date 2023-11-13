@@ -1,8 +1,6 @@
 <script>
-	import Button from '$lib/components/Button.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import ShortHeader from '$lib/components/ShortHeader.svelte';
-	import { onMount } from 'svelte';
 </script>
 
 <ShortHeader />

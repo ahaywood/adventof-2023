@@ -21,8 +21,8 @@
 			<h1 class="font-decorative uppercase text-5xl mb-5 text-center">Send me Free Challenges</h1>
 
 			<form
-				action="https://kwesforms.com/api/foreign/forms/D9lxeJnNyJ9RuEsygVeq"
-				class="kwes-form form grid grid-cols-2 gap-x-10 gap-y-10 signup"
+				action="https://kwesforms.com/api/foreign/forms/GhtMOqzvUF39GmKNNaRl"
+				class="kwes-form form grid grid-cols-2 gap-x-10 gap-y-10 bundle"
 				data-kw-success-message="Thanks for signing up! You should receive an email with details from us soon!"
 			>
 				<div>

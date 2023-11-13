@@ -2,7 +2,9 @@
 
 BY VISITING [HTTPS://ADVENTOFJS.COM](https://adventofjs.com), YOU ARE CONSENTING TO OUR
 TERMS AND CONDITIONS.
-OVERVIEW
+
+## OVERVIEW
+
 The terms “we,” “us,” and “our” refer to Advent of JavaScript. The term the “Site” refers to [https://adventofjs.com](https://adventofjs.com). The terms “user,” “you,” and “your” refer to site visitors, customers, and any other users of the site.
 
 Advent of JavaScript provides 24 JavaScript challenges and their coded solutions (the “Service”).

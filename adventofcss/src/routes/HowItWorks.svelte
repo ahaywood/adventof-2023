@@ -5,6 +5,10 @@
 		<ol>
 			<li>
 				<h3 class="tertiary-heading">For 24 days, you will get an email</h3>
+				<p class="mb-4">
+					This year, we're working on a single project over 24 days. By the end, you'll have an
+					entire design system setup.
+				</p>
 				<p class="mb-4">Each challenge includes:</p>
 				<ul class="list-disc">
 					<li>
@@ -17,7 +21,18 @@
 
 			<li>
 				<h3 class="tertiary-heading">Complete the Challenge</h3>
-				Complete the challenge on your own, or refer to the (paid) tutorial and final coded solution.
+				<p>
+					Complete the challenge on your own, or refer to the tutorial and final coded solution.
+				</p>
+				<p>
+					You can complete the challenges using any framework/platform you'd like, but the provided
+					solutions will be built on top of <a
+						href="https://tailwindcss.com/"
+						target="_blank"
+						rel="noreferrer">TailwindCSS</a
+					>
+					and <a href="https://storybook.js.org/" target="_blank" rel="noreferrer">Storybook</a>.
+				</p>
 			</li>
 
 			<li>

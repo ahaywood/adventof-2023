@@ -13,8 +13,9 @@
 		</div>
 		<h3>24 Challenges</h3>
 		<p>
-			Each challenge includes all the assets you need to get started, including a Figma file, a
-			style guide, a brief, and steps to help you get started.
+			Each challenge includes all the HTML and CSS you need to get started, allowing you to focus on
+			the JavaScript. Each challenge also includes a brief, ways to push yourself, and steps to help
+			you get you started.
 		</p>
 		<Button label="Sign me up!" src={Constants.FREE} />
 	</div>
@@ -33,10 +34,11 @@
 		</div>
 		<h3>24 Challenges & Solutions</h3>
 		<p>
-			Each challenge includes all the assets you need to get started, including a Figma file, a
-			style guide, a brief, ways to push yourself, and steps to help you get started.
+			Each challenge includes all the HTML and CSS you need to get started, allowing you to focus on
+			the JavaScript. Each challenge also includes a brief, ways to push yourself, and steps to help
+			you get you started.
 		</p>
-		<p>You’ll also receive the final coded solution and tutorial explaining how to get there.</p>
+		<p>You'll also receive the final coded solution and an explanation of how to get there.</p>
 		<Button label="Yes, please!" src={Constants.SOLUTIONS} />
 	</div>
 

@@ -7,4 +7,4 @@ I use the font [Dank Mono.](https://philpl.gumroad.com/l/dank-mono) It costs ~$3
 
 I’m using [VS Code](https://code.visualstudio.com/) with the [Cobalt 2 Theme](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2).
 
-In general, I like to use the Terminal that’s built into VS Code. But, if I need to reach for something else, I use [Hyper](https://hyper.is/) with [Oh My Zsh](https://ohmyz.sh/) and the [Robby Russell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) theme.
+In general, I like to use the Terminal that’s built into VS Code. But, if I need to reach for something else, I use [Warp](https://warp.dev).
