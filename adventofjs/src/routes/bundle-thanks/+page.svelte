@@ -11,9 +11,8 @@
 			<h1 class="font-decorative uppercase text-5xl mb-5 text-center">Welcome!</h1>
 
 			<p class="text-center mb-12">
-				You've successfully joined the Advent of CSS and JavaScript.<br />You'll receive daily
-				challenges emails from me with Advent challenges,<br /> of course, you can change your mind and
-				mute or unsubscribe at any time.
+				You've successfully joined the Advent of CSS and JavaScript.<br />On December 1, you'll
+				start receiving daily challenges emails from me with Advent challenges.
 			</p>
 		</div>
 	</div>
