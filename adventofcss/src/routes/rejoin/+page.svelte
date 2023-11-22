@@ -1,13 +1,3 @@
-<script>
-	import kwesforms from 'kwesforms';
-	import Button from '$lib/components/Button.svelte';
-	import { onMount } from 'svelte';
-
-	onMount(() => {
-		kwesforms.init();
-	});
-</script>
-
 <div class="flex flex-col justify-between min-h-screen">
 	<div class="fat-border" />
 
