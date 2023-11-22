@@ -8,7 +8,9 @@
 
 	<div class="layout-grid">
 		<div class="col-span-8 col-start-3 mt-24">
-			<h1 class="font-decorative uppercase text-5xl mb-5 text-center">Successfully Rejoined</h1>
+			<h1 class="font-decorative uppercase text-5xl mb-5 !leading-[1.2] text-center">
+				Successfully Rejoined
+			</h1>
 
 			<p class="text-center mb-12">
 				You'll receive daily challenges emails from me with Advent challenges,<br /> of course, you can
