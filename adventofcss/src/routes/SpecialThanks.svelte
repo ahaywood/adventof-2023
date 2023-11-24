@@ -2,8 +2,8 @@
 	import { Constants } from '$lib/helpers/Constants';
 </script>
 
-<div class="py-16 text-center layout-grid">
-	<div class="col-start-4 col-span-6">
+<div class="py-16 text-center grid grid-cols-1 lg:grid-cols-12 gap-x-5 px-10">
+	<div class="lg:col-start-4 lg:col-span-6">
 		<div class="flex items-center gap-x-5 justify-center mb-3">
 			<div>
 				<img
