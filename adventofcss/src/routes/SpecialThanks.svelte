@@ -3,7 +3,7 @@
 </script>
 
 <div class="py-16 text-center layout-grid">
-	<div class="col-start-4 col-span-6">
+	<div class="col-start-1 col-span-12 md:col-start-4 md:col-span-6">
 		<div class="flex items-center gap-x-5 justify-center mb-3">
 			<div>
 				<img
